@@ -13,3 +13,7 @@ type in Linux terminal : python3 MAC_Changer_Linux.py
 
 # What is it using?
 it using subprocess, os, random and re modules 
+
+# help
+in order to get help you can run in the terminal
+* python3 MAC_Changer_Linux.py --help
