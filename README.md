@@ -9,7 +9,7 @@ A simple python script to change mac address easily with given the user choises
 type in Linux terminal : python3 MAC_Changer_Linux.py
 
 * if you want to run it on python2 replace the input command to raw_input
-* run python MAC_Changer_Linux.py
+   * run python MAC_Changer_Linux.py
 
 # What is it using?
 it using subprocess, os, random and re modules 
