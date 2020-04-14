@@ -4,6 +4,7 @@ import subprocess
 import os
 import random
 import re
+import optparse
 
 
 def choose_interface(interface):
@@ -34,6 +35,10 @@ def mac_validator():
 
 
 interfaces = os.listdir('/sys/class/net/')
+parser = optparse.OptionParser()
+
+parser.add_option("-i", "--interface", dest="interface", help="Interface to change it's MAC address")
+parser.parse_args()
 subprocess.call(["sudo", "ifconfig"])
 
 available_nic(interfaces)
