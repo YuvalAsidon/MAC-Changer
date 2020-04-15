@@ -17,3 +17,10 @@ it using subprocess, os, random and re modules
 # help
 in order to get help you can run in the terminal
 * python3 MAC_Changer_Linux.py --help
+
+
+# MAC_Changer_Linux2.py
+* Is to put the user interactions with the python3 command
+* For example:
+   * python3 MAC_Changer_Linux2.py -i eth0 -m aa:bb:cc:dd:ee:ff
+* python3 MAC_Changer_Linux2.py --help --> in order to get more information
