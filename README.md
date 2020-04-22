@@ -1,5 +1,4 @@
 # MAC-Changer
- MAC changer for linux
 MAC changer for linux
 Using Python3
 Using the new Linux where even the ifconfig require super user
